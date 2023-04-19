@@ -5,7 +5,7 @@ class Solution(object):
     def groupAnagrams(self, strs):
         """
         :type strs: List[str]
-        :rtype: List[List[str]]
+        :return type: List[List[str]]
         """
         
         # default dictionary(wont throw error if key doesn't exit, but will create it)
@@ -30,7 +30,7 @@ class Solution2(object):
     def groupAnagrams(self, strs):
         """
         :type strs: List[str]
-        :rtype: List[List[str]]
+        :return type: List[List[str]]
         """
         
         # default dictionary(wont throw error if key doesn't exit, but will create it)
