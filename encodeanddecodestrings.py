@@ -24,7 +24,6 @@ class Solution():
         j = 0
         while i < len(str):
             if str[i] == "#":
-                print(str[j:i])
                 length = int(str[j:i])
                 ret.append(str[i + 1: i + 1 + length])
                 i = i + 1 + length
@@ -59,7 +58,7 @@ class Solution2:
 
 
        
-s = ["test","bubba", "#4test"]
+s = ["test","bubba", "#4testssdf"]
 
 classSolution = Solution()
 print(classSolution.encode(s))
